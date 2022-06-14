@@ -1,0 +1,1 @@
+{"uuid":"db65fa84-61e7-4c10-a56a-47bbc6f77b92","name":"test.EquipmentBikesTest","children":["aa1dbcc7-245f-45f0-b861-a06005151e4b"],"befores":[{"name":"doBeforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655068459520,"stop":1655068473253}],"afters":[],"start":1655068455255,"stop":1655068536681}

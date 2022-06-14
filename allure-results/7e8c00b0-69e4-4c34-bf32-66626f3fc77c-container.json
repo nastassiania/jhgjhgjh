@@ -1,0 +1,1 @@
+{"uuid":"7e8c00b0-69e4-4c34-bf32-66626f3fc77c","name":"test.AddWorkoutTest","children":["de6f86fd-ad88-45ca-809f-a52d9b776d0a"],"befores":[{"name":"doBeforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655063451939,"stop":1655063460154}],"afters":[],"start":1655063450434,"stop":1655063468052}

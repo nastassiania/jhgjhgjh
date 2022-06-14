@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" thread-count="2" parallel="tests">
+    <test name="Login and Logout Successfully test">
+        <classes>
+            <class name="test.LoginAndLogoutSuccessfullyTest"/>
+        </classes>
+    </test>
+    <test name="Unsuccessfully Login test">
+        <classes>
+            <class name="test.LoginUnsuccessfullyTest"/>
+        </classes>
+    </test>
+    <test name="Registration test">
+        <classes>
+            <class name="test.RegistrationTest"/>
+        </classes>
+    </test>
+    <test name="Account Deletion test">
+        <classes>
+            <class name="test.AccountDeletionTest"/>
+        </classes>
+    </test>
+    <test name="Gear And Routes test">
+        <classes>
+            <class name="test.EquipmentBikesTest"/>
+        </classes>
+    </test>
+    <test name="Calculator test">
+        <classes>
+            <class name="test.OtherCalculatorTest"/>
+        </classes>
+    </test>
+    <test name="Workouts test">
+        <classes>
+            <class name="test.AddWorkoutTest"/>
+        </classes>
+    </test>
+</suite>
