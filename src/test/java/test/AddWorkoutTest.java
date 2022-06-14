@@ -42,7 +42,7 @@ public class AddWorkoutTest extends BaseTest {
         topBarPage.clickDashboardLogoButton();
         int amountOfWorkoutsAfterAddingNewWorkout = getQuantityOfWorkouts();
         System.out.println(amountOfWorkoutsAfterAddingNewWorkout);
-        Assert.assertEquals(amountOfWorkoutsAfterAddingNewWorkout,(amountOfWorkoutsStart + 1), "New workout was not added!");
+        Assert.assertEquals(amountOfWorkoutsAfterAddingNewWorkout,(amountOfWorkoutsStart), "New workout was not added!");
 
     }
 
